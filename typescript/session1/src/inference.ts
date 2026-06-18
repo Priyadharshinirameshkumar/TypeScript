@@ -13,3 +13,5 @@ let mystery;
 
 mystery = "hello";
 mystery = 42;
+
+// Since 'mystery' is declared without a type annotation or an initial value, TypeScript cannot determine its type. Therefore, it assigns the 'any' type. Variables of type 'any' can store values of any data type, which is why both a string and a number can be assigned without causing an error.
