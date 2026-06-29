@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #dabbbb;
+    color: #333;
+}
+
+/*
+The stylesheet is linked inside the <head> so the browser loads
+the CSS before displaying the webpage.
+
+This prevents the page from first appearing without styles and
+then suddenly changing after the CSS loads, providing a smoother
+user experience.
+*/
