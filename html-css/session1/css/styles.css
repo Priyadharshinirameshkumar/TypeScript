@@ -19,3 +19,43 @@ This prevents the page from first appearing without styles and
 then suddenly changing after the CSS loads, providing a smoother
 user experience.
 */
+
+
+
+
+h2 {
+    color: #0066cc;
+    border-bottom: 2px solid #0066cc;
+    padding-bottom: 5px;
+}
+
+
+/*
+   Task B - Class Selector
+ */
+
+.highlight {
+    background-color: #fff3cd;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+/* 
+   Task C - ID Selector
+ */
+
+#contact-section {
+    background-color: #e6f7ff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+/*
+When both a tag selector and a class selector apply to the same element,
+the class selector takes priority because it has higher specificity.
+
+Specificity order:
+Tag Selector < Class Selector < ID Selector
+*/
