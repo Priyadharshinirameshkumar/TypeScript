@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+.box {
+
+    width: 300px;
+
+    height: 150px;
+
+    padding: 20px;
+
+    border: 4px solid #333;
+
+    margin: 40px auto;
+
+    background-color: lightblue;
+}
+
+/*
+Total rendered width:
+
+Since box-sizing is set to border-box,
+the total width remains 300px.
+The padding and border are included
+within the specified width.
+
+If box-sizing: border-box is removed,
+the width only applies to the content.
+
+The actual rendered width becomes:
+
+300px (content)
++ 20px left padding
++ 20px right padding
++ 4px left border
++ 4px right border
+
+= 348px
+
+This makes the element larger than the specified width.
+*/
