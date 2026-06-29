@@ -59,3 +59,32 @@ the class selector takes priority because it has higher specificity.
 Specificity order:
 Tag Selector < Class Selector < ID Selector
 */
+
+/* 
+   Task 2.3 - CSS Cascade
+ */
+
+p {
+    color: black;
+}
+
+.intro-text {
+    color: blue;
+}
+
+#about-paragraph {
+    color: green;
+}
+
+/*
+The paragraph becomes green because the ID selector has
+the highest specificity and overrides both the class and
+tag selectors.
+
+To make the p selector win, we would need to remove the
+class and id from the paragraph or use a more specific
+selector (or !important, which should generally be avoided).
+
+Specificity order (lowest to highest):
+Tag Selector < Class Selector < ID Selector
+*/
