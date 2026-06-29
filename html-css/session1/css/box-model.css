@@ -73,3 +73,33 @@ the padding and border are included within the specified width.
 For this reason, border-box is commonly used in modern web development
 because it makes layouts easier to manage.
 */
+
+/* 
+   Task 4.4 - Padding vs Margin
+ */
+
+.padding-demo {
+    background-color: lightcoral;
+    padding: 30px;
+    margin: 8px 0;
+}
+
+.margin-demo {
+    background-color: lightcoral;
+    padding: 4px;
+    margin: 30px 0;
+}
+
+/*
+Padding adds space inside an element, so the background colour
+extends into the padded area.
+
+Margin adds space outside an element, so the background colour
+does not extend into the margin.
+
+Use padding when you want more space between the content and
+the border.
+
+Use margin when you want more space between different elements
+on the page.
+*/
