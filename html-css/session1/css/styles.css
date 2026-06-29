@@ -88,3 +88,28 @@ selector (or !important, which should generally be avoided).
 Specificity order (lowest to highest):
 Tag Selector < Class Selector < ID Selector
 */
+
+/* 
+   Task 3.2 - Navigation
+ */
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    margin-right: 20px;
+    color: #0066cc;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/*
+The href="#about" link points to the element whose id is "about".
+
+When the link is clicked, the browser searches for that id
+and automatically scrolls to that section of the page.
+*/
